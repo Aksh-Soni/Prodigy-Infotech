@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("tbckgrnd.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff; /* Default font color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background on hover */
+    color: #000; /* Font color on hover */
+  }
+  
+  /* CSS for the content area */
+                #content {
+    margin-top: 60px; /* Adjust to match the height of the navigation menu */
+    padding: 20px;
+  }
+  
+  /* CSS for the box with the image and paragraph */
+  .box {
+    size: 50;
+    background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    display:grid;
+    align-items: center;
+  }
+  
+  .box img {
+    width: 100px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+  }
+  
+  .box p {
+    margin: 15;
+  }
+  
+  /* CSS for the content area */
+#content {
+    margin-top: 60px; /* Adjust to match the height of the navigation menu */
+    padding: 20px;
+  }
+  
+  /* CSS for the box with the image and paragraph */
+  .box {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    display: flex;
+    align-items: center;
+  }
+  
+  .box img {
+    width: 100px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+  }
+  
+  .box p {
+    margin: 0;
+  }
+  
+
+  /* CSS for the content area */
+#content {
+    margin-top: 60px; /* Adjust to match the height of the navigation menu */
+    padding: 20px;
+  }
+  
+  /* CSS for the box with the image and paragraph */
+  .box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    display: flex;
+    align-items: center;
+  }
+  
+  .box img {
+    width: 100px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+  }
+  
+  .box p {
+    margin: 0;
+  }
+  
+ /* CSS for the contact section */
+#contact {
+    position: fixed; /* or absolute */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  color: bisque;
+  }
+  
+  #contact h2 {
+    margin-top: 0;
+    font-size: 1em;
+    font-family: cursive;
+  }
+  
+  #contact p {
+    font-size: 1.2em;
+  }
+  
+  #contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  
+  #contact ul li a {
+    color: #0077b5; /* LinkedIn blue */
+    text-decoration: none;
+  }
+  
+  #contact ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icon {
+    vertical-align: middle; /* Align the icons vertically with the text */
+    width: 1em; /* Set the width of the icons equal to the font size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
